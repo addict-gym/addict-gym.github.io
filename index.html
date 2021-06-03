@@ -1,1 +1,93 @@
-<h1>addict gym</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta property="og:title" content="addict gym" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://addict-gym.com/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="ja_JP" />
+    <meta property="og:site_name" content="addict gym" />
+    <meta property="og:image" content="https://addict-gym.com/ogp.png" />
+    <meta
+      property="og:image:secure_url"
+      content="https://addict-gym.com/ogp.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="addict gym" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="addict gym" />
+    <meta name="twitter:image" content="https://addict-gym.com/ogp.png" />
+    <meta name="theme-color" content="#1d2a33" />
+    <link rel="shortcut icon" href="https://addict-gym.com/favicon.ico" />
+    <link rel="icon" href="https://addict-gym.com/favicon.ico" />
+    <title>addict gym</title>
+    <style>
+      @keyframes Slide {
+        50% {
+          opacity: 1;
+        }
+        100% {
+          left: -100%;
+        }
+      }
+      @keyframes Opacity {
+        50% {
+          opacity: 1;
+        }
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: YuMincho, serif;
+        font-weight: 600;
+        color: #fff;
+        background-color: #1d2a33;
+        letter-spacing: 0.5rem;
+        text-align: center;
+      }
+      .container {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+      }
+      .title {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        opacity: 0.25;
+        animation: Opacity 3500ms ease-in-out infinite;
+      }
+      .title hr {
+        position: absolute;
+        bottom: 0;
+        left: 100%;
+        width: 100%;
+        border-width: 1px;
+        box-sizing: border-box;
+        opacity: 0;
+        animation: Slide 3500ms ease-in-out infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>addict gym</h1>
+        <hr />
+      </div>
+    </div>
+  </body>
+</html>
