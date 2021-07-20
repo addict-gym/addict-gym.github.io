@@ -44,7 +44,9 @@
         padding: 0;
       }
       body {
-        font-family: "游明朝", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+        font-family: 'Garamond Premier Pro', '游明朝', 'YuMincho',
+          'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'ＭＳ Ｐ明朝',
+          'MS PMincho', serif;
         font-weight: lighter;
         color: #fff;
         background-color: #424242;
@@ -67,8 +69,10 @@
         position: relative;
         display: block;
         overflow: hidden;
+        /*
         opacity: 0.25;
         animation: Opacity 3500ms ease-in-out infinite;
+        */
       }
       .title hr {
         position: absolute;
@@ -77,16 +81,32 @@
         width: 100%;
         border-width: 1px;
         box-sizing: border-box;
+        /*
         opacity: 0;
         animation: Slide 3500ms ease-in-out infinite;
+        */
+      }
+      .gold {
+        color: #b28223;
       }
     </style>
   </head>
   <body>
     <div class="container">
       <div class="title">
-        <h1>addict gym</h1>
-        <hr />
+        <h1 style="font-size: 40px; line-height: 82px">addict gym</h1>
+        <!-- <hr /> -->
+        <p class="gold" style="font-size: 18px; line-height: 18px">SENDAGAYA</p>
+
+        <p
+          class="gold"
+          style="font-size: 24px; line-height: 30px; margin-top: 40px"
+        >
+          coming soon
+        </p>
+        <p style="font-size: 28px; line-height: 40px">
+          2021年7月下旬オープン予定
+        </p>
       </div>
     </div>
   </body>
