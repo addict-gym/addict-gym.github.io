@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkaddict_gym_com=self.webpackChunkaddict_gym_com||[]).push([[646],{3646:function(t,a,i){i.r(a),i.d(a,{default:function(){return n}});i(7294);var c=i(9211),d=i.p+"static/3844x726-addictgym-background-afa440ae0dc4d65dfa159a8f479b07b2.png",e=i(3431),n=function(){return(0,e.tZ)(c.Z,null,(0,e.tZ)("img",{src:d,alt:"addict gym",width:1922,height:363,style:{position:"relative",display:"block",width:"100%",height:"auto"}}))}}}]);
-//# sourceMappingURL=646-20e00605e5697baa1e39.js.map
