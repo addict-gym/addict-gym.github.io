@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-404-js",
-    "path": "/404.html",
-    "result": {"data":{"site":{"siteMetadata":{"siteUrl":"https://addict-gym.com"}}},"pageContext":{}},
-    "staticQueryHashes": []}
+{"componentChunkName":"component---src-pages-404-js","path":"/404.html","result":{"data":{"site":{"siteMetadata":{"siteUrl":"https://addict-gym.com"}}},"pageContext":{}},"staticQueryHashes":[]}
